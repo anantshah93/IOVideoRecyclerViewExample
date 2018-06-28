@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#b45e66</color>
+    <color name="colorPrimaryDark">#a1555b</color>
+    <color name="colorAccent">#b45e66</color>
+
+
+    <color name="divider_light">#f7f7f7</color>
+    <color name="divider">#e6e6e6</color>
+    <color name="green_blue">#00CC99</color>
+    <color name="light_blue">#fafdff</color>
+    <color name="off_white">#F6F6F6</color>
+    <color name="off_white_dark">#e3e3e3</color>
+    <color name="french_blue">#4261a8</color>
+    <color name="pinkish_grey">#CCCCCC</color>
+    <color name="dark_grey">#999999</color>
+    <color name="line_grey">#1e000000</color>
+    <color name="dark_grey_alpha">#28000000</color>
+    <color name="text_red">#ff3333</color>
+    <color name="cerulean">#0078ba</color>
+    <color name="tangerine">#ff9000</color>
+    <color name="brownish_grey">#666666</color>
+
+    <color name="fontColorPrimary">#241e24</color>
+    <color name="fontColorSecondary">#b1acb1</color>
+    <color name="fontColorLightBlack">#202e40</color>
+    <color name="fontColorLightBlue">#909ea5</color>
+
+
+    <color name="black">#000000</color>
+    <color name="black_alpha">#60000000</color>
+    <color name="green_alpha">#5500cc99</color>
+    <color name="white">#ffffff</color>
+    <color name="shadow">#0c000000</color>
+    <color name="white_alpha">#99ffffff</color>
+    <color name="black_alpha_g">#28000000</color>
+    <color name="white_full">#E6ffffff</color>
+    <color name="off_white_full">#FAF6F6F6</color>
+    <color name="transparent">#00000000</color>
+    <color name="widget_labelled_spinner_error">@color/colorAccent</color>
+    <color name="box">#50000000</color>
+    <color name="bg_color">#e0dce5</color>
+
+</resources>

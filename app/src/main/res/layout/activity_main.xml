@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_color"
+    tools:context="com.app.iostudio.activity.MainActivity">
+
+    <include layout="@layout/toolbar_layout"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView_video"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"/>
+
+    <im.ene.toro.widget.Container
+        android:id="@+id/my_fancy_videos"
+        android:layout_width="match_parent"
+        android:paddingTop="@dimen/fifteen_dp"
+        android:clipToPadding="false"
+        android:layout_height="match_parent"
+        tools:listitem="@layout/list_item_player"/>
+
+</LinearLayout>

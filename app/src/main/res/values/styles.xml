@@ -1,0 +1,572 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/green_blue</item>
+        <item name="colorControlNormal">@color/pinkish_grey</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/pinkish_grey
+        </item>
+        <item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>
+        <!--<item name="android:windowAllowEnterTransitionOverlap" tools:ignore="NewApi">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap" tools:ignore="NewApi">true</item>
+        <item name="android:windowBackground">@color/transparent</item>-->
+    </style>
+
+    <style name="AppThemeWhite" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/off_white_dark</item>
+        <item name="colorPrimaryDark">@color/off_white_dark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlNormal">@color/pinkish_grey</item>
+        <item name="android:colorControlNormal" tools:targetApi="lollipop">@color/pinkish_grey
+        </item>
+        <!--<item name="android:windowAllowEnterTransitionOverlap" tools:ignore="NewApi">true</item>
+        <item name="android:windowAllowReturnTransitionOverlap" tools:ignore="NewApi">true</item-->>
+
+        <item name="android:windowContentTransitions" tools:ignore="NewApi">true</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/off_white</item>
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="autoCompleteTextViewStyle">@style/SearchAutoCompleteTextView</item>
+
+
+        <!--
+                <item name="android:windowBackground">@color/transparent</item>
+        -->
+
+    </style>
+
+    <style name="DashboardTheme" parent="AppTheme">
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+
+    </style>
+
+    <style name="SplashTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>-->
+        <item name="android:windowTranslucentStatus" tools:targetApi="kitkat">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@color/transparent</item>
+    </style>
+
+    <style name="AppDialogThemeBaseActivity" parent="Theme.AppCompat.Light.Dialog">
+        <!-- Customize your theme here. -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/green_blue</item>
+        <item name="colorControlNormal">@color/pinkish_grey</item>
+        <item name="android:colorControlNormal"
+              tools:targetApi="lollipop">@color/pinkish_grey
+        </item>
+
+        <!--
+                <item name="android:windowTranslucentStatus" tools:ignore="NewApi">true</item>
+        -->
+        <!--
+        -->
+        <!--
+                <item name="android:background">@color/transparent</item>
+        -->
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="myCustomMenuTextApearance" parent="@android:style/TextAppearance.Widget.IconMenu.Item">
+        <item name="android:textColor">@color/fontColorPrimary</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="MyRatingBar" parent="Widget.AppCompat.RatingBar">
+        <item name="colorAccent">@color/star_golden</item>
+        <item name="android:colorControlNormal" tools:ignore="NewApi">@color/pinkish_grey</item>
+    </style>
+
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="colorAccent">@color/white</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="SearchAutoCompleteTextView" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textColorHint">@color/pinkish_grey</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="actionMenuTextColor">@color/white</item>
+        <item name="android:elevation" tools:targetApi="lollipop">@dimen/five_dp</item>
+        <item name="android:textColorSecondary">@color/white</item>
+    </style>
+
+    <style name="Title1TitleStyle">
+        <item name="android:textSize">40sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Title1Black">
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="Title2Style">
+        <item name="android:textSize">28sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Title21HeadingStyle">
+        <item name="android:textSize">26sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Title22HeadingStyle">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Title3Heading3Style">
+        <item name="android:textSize">22sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="Title3Black">
+        <item name="android:textSize">22sp</item>
+    </style>
+
+    <style name="Title4Heading4Style">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="ActiveNavigation">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="LightTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="DarkTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialDarkTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialLightTitle">
+        <item name="android:textSize">20sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="HeadlineStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="BodyContentHeaStyle">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="HeadlineBlack">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="BodyBlack">
+        <item name="android:textSize">17sp</item>
+    </style>
+
+    <style name="LightSubhead2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="CalloutSubContenStyle">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="MaterialDarkSubhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialLightSubhead">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LightSubhead1">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LightSubhead1Secondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialLightSubheadSecondary">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialDarkSubheadDisabled">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialLightSubheadDisabled">
+        <item name="android:textSize">16sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="SubheadBlack">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="LightBody2Secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="FootnoteSubConteStyle">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="MaterialLightBody1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialDarkBody1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="DarkBody1">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="MaterialLightBody1Secondary">
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Caption1HeadingStyle">
+        <item name="android:textSize">13sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="FootnoteGrey">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="FootnoteBlack">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="InactiveNavigation">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#ffffff</item>
+    </style>
+
+    <style name="Caption2LessFocStyle">
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">#000000</item>
+    </style>
+
+    <style name="MaterialLightCaptionSecondary">
+        <item name="android:textSize">12sp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="Caption1Black">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="Caption2Black">
+        <item name="android:textSize">11sp</item>
+    </style>
+
+
+    <style name="AppTheme.TextView" parent="@android:style/Widget.TextView">
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="BottomSheetDialog" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="android:background">@color/transparent</item>
+        <item name="android:color">@color/transparent</item>
+        <item name="android:colorBackground">@color/transparent</item>
+        <!--
+                <item name="bottomSheetStyle">@style/bottomSheetStyleWrapper</item>
+        -->
+    </style>
+
+
+    <style name="bottomSheetStyleWrapper" parent="Widget.Design.BottomSheet.Modal">
+        <item name="behavior_peekHeight">500dp</item>
+    </style>
+
+
+    <style name="Black_18" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_20" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/extra_large_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="White_20" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/extra_large_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="White_22" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/x_extra_large_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Black_22" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/x_extra_large_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Grey_22" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/x_extra_large_text_size</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="Grey_18" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="FontDarkGrey_26" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/twenty_six_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlack</item>
+    </style>
+
+    <style name="FontDarkGrey_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlack</item>
+    </style>
+
+    <style name="FontDarkGrey_14" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlack</item>
+    </style>
+
+    <style name="FontDarkGrey_12" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlack</item>
+    </style>
+
+    <style name="FontDarkGrey_10" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/very_small_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlack</item>
+    </style>
+
+    <style name="FontDarkGrey_18" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlack</item>
+    </style>
+
+    <style name="FontLightGrey_18" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlue</item>
+    </style>
+
+    <style name="FontLightGrey_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlue</item>
+    </style>
+
+    <style name="FontLightGrey_14" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlue</item>
+    </style>
+
+    <style name="FontLightGrey_12" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlue</item>
+    </style>
+
+    <style name="FontDarkBlueGrey_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/fontColorLightBlue</item>
+    </style>
+
+    <style name="Grey_14" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="Grey_12" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="Grey_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="Grey_20" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/extra_large_text_size</item>
+        <item name="android:textColor">@color/dark_grey</item>
+    </style>
+
+    <style name="Red_18" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/text_red</item>
+    </style>
+
+    <style name="Black_26" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/twenty_six_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="Black_14" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="Black_12" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+
+    <style name="White_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="White_14" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="White_12" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="Brownish_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+    <style name="Brownish_18" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+    <style name="Brownish_22" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/x_extra_large_text_size</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+    <style name="Brownish_14" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+    <style name="Brownish_12" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/brownish_grey</item>
+    </style>
+
+
+    <style name="Green_14" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/normal_text_size</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Green_12" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/small_text_size</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+
+    <style name="Green_16" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/medium_text_size</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+    <style name="Green_18" parent="AppTheme.TextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+        <item name="android:textColor">@color/green_blue</item>
+    </style>
+
+
+    <color name="star_golden">#f9a825</color>
+
+    <integer name="anim_duration_very_long">700</integer>
+    <integer name="anim_duration_long">500</integer>
+    <integer name="anim_duration_medium">300</integer>
+    <integer name="anim_duration_short">100</integer>
+
+
+
+
+
+    <style name="Toro.Dialog.Fullscreen" parent="Theme.AppCompat.DialogWhenLarge">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <style name="Toro.Theme.Board" parent="Toro.Dialog.Fullscreen">
+        <item name="android:windowBackground">@color/black</item>
+    </style>
+</resources>

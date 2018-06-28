@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">IOSTUDIO</string>
+    <string name="share">Share</string>
+    <string name="like">Like</string>
+    <string name="developer_key">your YouTube api key goes here</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_mute">Default mute</string>
+
+</resources>
